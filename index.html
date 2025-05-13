@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Partify YMM Search</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form id="ymmForm">
+   <label for="year">Year</label>
+    <select id="year">
+     <option value="">Select Year</option>
+    </select>
+
+   <label for="make">Make</label>
+    <select id="make">
+     <option value="">Select Make</option>
+    </select>
+
+   <label for="model">Model</label>
+    <select id="model" disabled>
+     <option value="">Select Model</option>
+    </select>
+
+   <label for="productType">Product Type (optional)</label>
+    <select id="productType">
+     <option value="">-- None --</option>
+    </select>
+   <button type="submit">Search</button>
+  </form>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
